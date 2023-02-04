@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package review;
+
+option go_package="github.com/shyam0507/grpc-node-go/proto";
+
+message ReviewRequest {
+    int32 id = 1;
+} 
+
+message ReviewResponse {
+    int32 id = 1;
+    string review = 2;
+    float rating = 3;
+}
+
+service ReviewService {
+    rpc GetReviews (ReviewRequest) returns (stream ReviewResponse);
+}

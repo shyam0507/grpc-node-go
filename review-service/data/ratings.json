@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "movie_id": 1,
+    "review": "#Blockbuster #Inspiring #Wellmade",
+    "rating": 6
+  },
+  {
+    "id": 2,
+    "movie_id": 1,
+    "review": "#SuperDirection #GreatActing #WowMusic",
+    "rating": 8
+  },
+  {
+    "id": 3,
+    "movie_id": 1,
+    "review": "#OkDirection #OneTimeWatch #FunWatch",
+    "rating": 7
+  },
+  {
+    "id": 4,
+    "movie_id": 2,
+    "review": "#Blockbuster #Inspiring",
+    "rating": 9
+  },
+  {
+    "id": 5,
+    "movie_id": 2,
+    "review": "#OkDirection #OneTimeWatch",
+    "rating": 5
+  }
+]
